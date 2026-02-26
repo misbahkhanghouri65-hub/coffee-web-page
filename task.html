@@ -1,0 +1,142 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYLE>
+        nav {
+            display: flex;
+            padding: 7px;
+            background-color: rgb(70, 12, 4);
+            justify-content: space-between;
+
+        }
+
+        .head {
+            display: flex;
+            align-content: flex-end;
+            padding: 20px;
+        }
+
+        nav a {
+            color: bisque;
+            text-decoration: none;
+            padding-top: 10px;
+            padding-left: 50px;
+            font-size: large;
+        }
+
+        @media (max-width:600px) {
+            nav a {
+                flex-direction: column;
+            }
+
+            nav a {
+                text-align: center;
+                padding: 12px;
+            }
+        }
+
+        .coffee {
+            color: rgb(255, 247, 220);
+        }
+
+        .one {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            background-image: url(coffe.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .two {
+            height: 250px;
+            width: 450px;
+            background-color: rgba(4, 3, 2, 0.733);
+            color: rgb(254, 244, 254);
+            border-radius: 10px;
+            
+
+        }
+
+        .heading {
+            margin: 20px;
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+            font-size: large;
+        }
+
+        button {
+            height: 50px;
+            width: 100px;
+            background-color: rgb(236, 227, 245);
+            margin-left: 170px;
+            border-radius: 15px;
+        }
+
+        img {
+            height: 600px;
+            width: 600px;
+            margin-top: 40px;
+            
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        p {
+            text-align: center;
+        }
+
+        .bye {
+            display: flex;
+            justify-content:center;
+            transition: transform 2s ease-in;
+            
+        }
+
+        .bye:hover {
+            transform: scale(1.2);
+        }
+    </STYLE>
+</head>
+
+<body>
+    <nav>
+        <h1 class="coffee">Mishu's Coffe Heaven</h1>
+        <div class="head">
+            <a class="hy" href="HOME">HOME</a>
+            <a class="hy" href="HOME">ABOUT</a>
+            <a class="hy" href="HOME">MENU</a>
+            <a class="hy" href="HOME">CONTACT</a>
+        </div>
+    </nav>
+    <div class="one">
+        <div class="two">
+            <h1 class="heading">WELCOME TO MISHU'S COFFEE HEAVEN</h1>
+            <P>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates impedit laudantium sapiente
+                asperiores necessitatibus! Natus.</P>
+            <button>View Menu</button>
+        </div>
+    </div>
+
+
+    <h1>ABOUT US</h1>
+    <P>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eum eos ea, officiis blanditiis corrupti sapiente.</P>
+
+    <div class="bye">
+        <img src="images.jpg">
+
+    </div>
+</body>
+
+</html>
